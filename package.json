@@ -1,0 +1,25 @@
+{
+  "name": "pusher",
+  "version": "1.0.0",
+  "description": "Real time vote app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": "https://github.com/TheodoraDimitrova/pusherVote.git",
+  "author": "TBD",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dev": "^0.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6",
+    "pusher": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
